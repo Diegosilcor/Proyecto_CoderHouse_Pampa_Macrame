@@ -1,0 +1,64 @@
+.topNavBar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background: #EFE6DD;
+    height: 291px;
+    align-items: center;
+}
+
+.topNavBar_logo {
+    width: 208px;
+    height: 208px;
+    background: #D9D9D9;
+    border-radius: 50%;
+    position: relative;
+    left: 3%;
+}
+
+.topNavBar_brand-title {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 180px;
+    color: #7B3F02;
+}
+
+.topNavBar_networks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    right: 3%;
+}
+
+.topNavBar_networks-img {
+    width: 82px;
+    height: 82px;
+}
+
+.topNavBar_networks-description {
+    padding: 1.2rem 0 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #7B3F02;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 1.2rem !important;
+    line-height: 37px;
+    color: #7B3F02 !important;
+}
+
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
