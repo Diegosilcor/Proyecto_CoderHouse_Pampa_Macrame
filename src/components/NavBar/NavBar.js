@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 const NavBar = () => {
 
     return (
-        <nav>
+        <nav className="NAV">
             <div className="topNavBar">
                 <div className="topNavBar_logo">
                     <img className="topNavBar_logo-img" src="" alt="Logo Pampa Macramé" />
@@ -15,7 +15,7 @@ const NavBar = () => {
                     <h1 className="topNavBar_brand-title">Pampa Macramé</h1>
                 </div>
                 <div className="topNavBar_networks">
-                    <img className="topNavBar_networks-img" src="./images/logos/instagram.png" alt="Logo Instagram" />
+                    <img className="topNavBar_networks-img" src="./images/logos/instagram/instagram.png" alt="Logo Instagram" />
                     <p className="topNavBar_networks-description">IG: @pampamacrame_</p>
                 </div>
             </div>
@@ -31,17 +31,17 @@ const NavBar = () => {
                                     <Link to="/" className="nav-link active" aria-current="page" href="#">INICIO</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/" className="nav-link" href="#">TESTIMONIOS</Link>
+                                    <Link to="/testimonios" className="nav-link" href="#">TESTIMONIOS</Link>
                                 </li>
                                 <li className="nav-item dropdown">
-                                    <Link className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <Link className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         PRODUCTOS
                                     </Link>
                                     <ul className="dropdown-menu">
-                                        <li><Link className="dropdown-item" href="#">Espejos</Link></li>
-                                        <li><Link className="dropdown-item" href="#">Portamacetas</Link></li>
-                                        <li><Link className="dropdown-item" href="#">Tapices</Link></li>
-                                        <li><Link className="dropdown-item" href="#">Todos</Link></li>
+                                        <li><Link className="dropdown-item" to={"/category/espejo"}>Espejos</Link></li>
+                                        <li><Link className="dropdown-item" to={"/category/portamacetas"}>Portamacetas</Link></li>
+                                        <li><Link className="dropdown-item" to={"/category/tapices"}>Tapices</Link></li>
+                                        <li><Link className="dropdown-item" to={"/category/todos"}>Todos</Link></li>
                                     </ul>
                                 </li>
                                 <li className="nav-item">

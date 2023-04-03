@@ -1,0 +1,47 @@
+.item_container {
+    width: 438px;
+    height: 496px;
+    background: #EFE6DD;
+    border-radius: 20px;
+}
+
+.item_img {
+    width: 438px;
+    height: 321px;
+    background: #D9D9D9;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.item_img-img{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item_name {
+    padding: 28px 0 0 25px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #7B3F02;
+}
+
+.item_btn {
+    width: 127px;
+    height: 44px;
+    border: 0;
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #7B3F02;
+    position: relative;
+    left: 285px;
+    top: 30px;
+}

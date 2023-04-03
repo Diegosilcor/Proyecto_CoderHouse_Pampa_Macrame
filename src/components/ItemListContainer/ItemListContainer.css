@@ -1,0 +1,7 @@
+.uiball_loader{
+    height: 62vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,8 @@
+.item_list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem 6rem;
+    width: 80%;
+    margin: 2rem auto 4rem;
+    
+}

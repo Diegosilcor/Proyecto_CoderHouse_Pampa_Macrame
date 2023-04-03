@@ -1,3 +1,9 @@
+.NAV{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
 .topNavBar {
     display: flex;
     width: 100%;
