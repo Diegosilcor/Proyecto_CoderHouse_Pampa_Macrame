@@ -21,8 +21,11 @@ const ItemListContainer = ({ tittleItemList }) => {
 
     const [products, setProducts] = useState([])
     const [loading, setLoading] = useState(true)
-
     const { categoryId } = useParams()
+
+    useEffect(() => {
+        document.title = "Pampa Macramé | Productos"
+    })
 
     useEffect(() => {
         setLoading(true)

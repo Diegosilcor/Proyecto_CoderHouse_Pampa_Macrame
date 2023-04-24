@@ -1,6 +1,8 @@
 import "./NavBar.css"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.min.js"
+import Brand from "./Assets/brand.svg"
+import Ig  from "./Assets/instagram.png"
 import { Link } from "react-router-dom"
 
 const NavBar = () => {
@@ -8,16 +10,16 @@ const NavBar = () => {
     return (
         <nav className="NAV">
             <div className="topNavBar">
-                <div className="topNavBar_logo">
-                    <img className="topNavBar_logo-img" src="" alt="Logo Pampa Macramé" />
-                </div>
+                <Link to={"/"} className="topNavBar_logo">
+                    <img className="topNavBar_logo-img" src={Brand} alt="Logo Pampa Macramé" />
+                </Link>
                 <div className="topNavBar_brand">
                     <h1 className="topNavBar_brand-title">Pampa Macramé</h1>
                 </div>
-                <div className="topNavBar_networks">
-                    <img className="topNavBar_networks-img" src="./images/logos/instagram/instagram.png" alt="Logo Instagram" />
+                <Link target="_blank" to="https://www.instagram.com/pampamacrame_/" className="topNavBar_networks">
+                    <img className="topNavBar_networks-img" src={Ig} alt="Logo Instagram" />
                     <p className="topNavBar_networks-description">IG: @pampamacrame_</p>
-                </div>
+                </Link>
             </div>
             <div>
                 <div className="navbar navbar-expand-lg bg-light">
